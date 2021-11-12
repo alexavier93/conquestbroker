@@ -1,0 +1,59 @@
+#trabalhe-conosco {
+    position: relative;
+
+    .content {
+        padding: 40px 0;
+
+        .form {
+            border-bottom: 5px solid #f68b1f !important;
+
+            .card {
+                background: #4d4d4f;
+                color: #fff;
+                border: none;
+
+                h4 {
+                    color: #fff;
+                }
+
+                hr {
+                    border: 2px solid #fff;
+                }
+            }
+
+            form {
+                hr {
+                    background: #ddd;
+                    height: 2px;
+                }
+
+                input,
+                select {
+                    background-color: #eaeaea;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 15px;
+                    border: none;
+                }
+
+                textarea {
+                    background: #eaeaea;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 15px;
+                    border: none;
+                }
+
+                button {
+                    background: #f68b1f;
+                    border: none;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 18px 20px;
+                    line-height: 1em;
+                }
+            }
+        }
+    }
+}

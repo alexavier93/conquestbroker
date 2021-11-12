@@ -1,0 +1,204 @@
+// Responsive
+
+@media (max-width: 1300px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					display: block;
+					padding: 0 15px;
+				}
+			}
+
+			.menu {
+				padding: 0 20px;
+
+				.nav {
+					ul {
+						li > a {
+							padding: 0 12px;
+						}
+					}
+				}
+			}
+
+			.contato {
+				padding: 0 30px 0 20px;
+
+				a {
+					.phone-box {
+						width: 35px;
+						height: 35px;
+
+						i {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	#header {
+		.header-nav {
+			.contato {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	#header {
+		.header-nav {
+
+			.logo {
+				border: none;
+			}
+
+			.wrap {
+				align-items: inherit;
+			}
+
+			.menu {
+				display: none;
+			}
+		}
+	}
+
+	#home {
+		.banner-section {
+			.slide-item {
+				height: 500px;
+
+				.description {
+					width: 100%;
+
+					h1 {
+						font-size: 35px !important;
+					}
+
+					h4 {
+						font-size: 16px !important;
+					}
+				}
+			}
+		}
+	}
+
+	#footer {
+		.footer-top {
+			.form-newsletter {
+				form {
+					input {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 767px) {
+	.page-title-content {
+		h1 {
+			font-size: 25px;
+		}
+
+		h5 {
+			margin-top: 50px;
+		}
+	}
+
+	.floating-smi {
+		bottom: 150px;
+	}
+}
+@media (max-width: 650px) {
+	.title-section {
+		width: 100%;
+	}
+
+	#home {
+		.banner-section {
+			.slide-item {
+				height: 420px;
+
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	#footer {
+		.footer-top {
+			.links {
+				.item-link {
+					.form-newsletter {
+						form {
+							input {
+								width: 95%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	#header {
+		.header-top {
+			.nav-top {
+				display: none;
+			}
+		}
+
+		.header-nav {
+			.logo {
+				a {
+					img {
+						max-height: 60px;
+					}
+				}
+
+				.logo-fix {
+					padding: 0px 20px;
+				}
+			}
+		}
+	}
+
+	#home {
+		.energy {
+			.texto {
+				padding: 40px;
+				h2 {
+					font-size: 28px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+}
+
+@media all and (min-width: 992px) {
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		display: none;
+	}
+	#header .header-nav .menu .nav .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		margin-top: -15px;
+	}
+}

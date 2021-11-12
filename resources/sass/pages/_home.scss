@@ -1,0 +1,214 @@
+#home {
+	/*** Banner Section ***/
+	.banner-section {
+		position: relative;
+		border-bottom: 5px solid #f68b1f;
+	}
+
+	.banner-carousel {
+		position: relative;
+
+		.slide-item {
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			display: flex;
+			height: 700px;
+			align-items: center;
+			justify-content: flex-start;
+
+			.description {
+				width: 50%;
+
+				h1 {
+					font-weight: 700;
+					font-family: "Barlow", sans-serif;
+					color: #fff;
+				}
+				h4 {
+					font-size: 20px;
+					font-weight: 400;
+					color: #fff;
+				}
+			}
+		}
+
+		.owl-nav {
+			position: absolute;
+			left: 0;
+			top: 40%;
+			width: 100%;
+		}
+
+		.owl-next,
+		.owl-prev {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100px;
+			width: 30px;
+			background-color: rgba(255, 255, 255, 0.9);
+			color: #222222;
+			font-size: 20px;
+			line-height: 100px;
+			text-align: center;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+
+		.owl-next {
+			left: auto;
+			right: 0;
+		}
+
+		.owl-next:hover,
+		.owl-prev:hover {
+			background-color: rgba(255, 255, 255, 0.9);
+			color: #222222;
+		}
+	}
+
+	.imoveis-home {
+		padding: 40px 0;
+
+		.imoveis {
+
+			.controls {
+
+				button.control {
+					border-radius: 0;
+					color: #A7A9AC;
+					border: 1px solid #A7A9AC;
+				}
+
+				button.mixitup-control-active {
+					color: #f68b1f;
+					border: 1px solid #f68b1f;
+				}
+			}
+
+			.imovel-item {
+				text-decoration: none;
+
+				.img {
+					position: relative;
+					z-index: 1;
+					margin-bottom: 0;
+
+					.tag {
+						position: absolute;
+						top: 15px;
+						left: 15px;
+						font-size: 13px;
+						background: #f68b1f;
+						padding: 2px 8px;
+						color: #fff;
+						border-radius: 3px;
+					}
+
+					img {
+						width: 100%;
+					}
+				}
+
+				.content {
+					background: #fff;
+					border: 1px solid #ddd;
+					padding: 20px;
+
+					span {
+						display: block;
+					}
+
+					.title {
+						font-weight: 700;
+						margin-bottom: 5px;
+					}
+
+					.description {
+						font-size: 12px;
+						color: #666;
+						margin-bottom: 5px;
+						height: 55px;
+						overflow: hidden;
+					}
+
+					hr {
+						height: 2px;
+					}
+
+				}
+			}
+
+		}
+	}
+
+	.sobre-home {
+        background-color: #4D4D4F;
+        border-bottom: 5px solid #f68b1f;
+    }
+
+	.form-home {
+		.border {
+			border-bottom: 5px solid #f68b1f !important;
+		}
+
+		.card {
+			background: #232323;
+			color: #fff;
+			border: none;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			h4 {
+				color: #fff;
+			}
+
+			hr {
+				border: 2px solid #fff;
+			}
+
+			.tel {
+				span {
+					font-size: 24px;
+					font-family: "Barlow";
+					color: #fff;
+				}
+			}
+		}
+
+		form {
+			input,
+			select {
+				background-color: #eaeaea;
+				font-size: 16px;
+				font-weight: 400;
+				padding: 15px;
+				border: none;
+			}
+
+			textarea {
+				background: #eaeaea;
+				font-size: 16px;
+				font-weight: 400;
+				padding: 15px;
+				border: none;
+			}
+
+			button {
+				border: none;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 400;
+				padding: 18px 20px;
+				line-height: 1em;
+			}
+		}
+	}
+}
